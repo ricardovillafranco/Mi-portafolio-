@@ -1,0 +1,19 @@
+{
+  "name": "mi-portafolio-",
+  "version": "1.0.0",
+  "description": "This is my portfolio \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cfrontend developer portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardovillafranco/Mi-portafolio-.git"
+  },
+  "author": "Ricardo Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricardovillafranco/Mi-portafolio-/issues"
+  },
+  "homepage": "https://github.com/ricardovillafranco/Mi-portafolio-#readme"
+}
