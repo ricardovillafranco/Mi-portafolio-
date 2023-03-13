@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+html{
+    background: #212327;
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 100%;
+    max-width: 1200px;
+    
+}
+
+
+.navbar {
+    width: 100%;
+    height: 35px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar-logo-RL {
+    width: 50px;   
+}
+.navbar-list {
+    width: 50vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around  ;
+    align-items:center;
+    font-size: 1rem;
+    
+    
+}
+.navbar-item:hover  {
+    color: #667eea;
+}
+
+.profile-container {
+    width: 100%;
+    
+}
+.profile {
+    background-color: white;
+    width: 100%;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction:  row;
+    overflow: hidden;
+    border-radius:4%
+    
+    
+}
+
+
+.profile-texts{
+    width: 80%;
+    height: 50vh;
+    padding-left: 10%;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000;
+   
+    align-items:flex-start
+
+}
+
+
+h1{
+    color: #84a9f3;
+    font-size: 3rem;
+}
+
+.img-container {
+    width: fit-content;
+    height: fit-content;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-right: 20px;
+    
+   
+    
+
+}
+.profile-pic{
+    
+    width: 600px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+
+
+.profile-icons {
+width: 100%;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-bottom: 20px;
+
+
+}
+
+.profile-icons-item{
+    
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 0 20px;
+    
+    
+}
+.profile-icons-tailwind {
+    color: #84a9f3;
+}
+.profile-icons-html {
+ width: 70px;
+}
+
+.profile-icons-react {
+    width: 60px;
+   }
+
+   .profile-icons-js {
+    width: 60px;
+   }
+
+
+   .projects {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    
+    align-items:start;
+   }
+   .project-title{
+    color: #fff;
+    padding-left: 50px;
+    font-size: 2.5rem;
+   }
+   .projects-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .project-container{
+    background-color: white;
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .project{
+    
+   color: white;
+   width: 100%;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   text-decoration: none;
+    
+   }
+   
+   .project-window{
+    height: 300px;
+    width: 500px;
+    padding-bottom: 20px;
+   }
+
+   .cursos-title{
+    color: #fff;
+    width: 100%;
+    padding-left: 100px;
+    font-size: 2.5rem;
+    
+   }
+   .cursos {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    padding: 0 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+   }
+   .cursos-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    
+   }
+   .curso{
+    width: 1fr;
+    
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    
+ 
+    
+   }
+   .cursos-img{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+   
+    
+   }
+
+   .curso-img:hover  {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+   .img-title{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+   footer {
+    width: 90%;
+    height: 50px;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+
+   }
+   .contact-icon{
+    text-decoration: none;
+    color: white;
+   }
+   .contact-icons{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+   }
+   .icon-youtube {
+    color: red;
+    
+   }
