@@ -1,113 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300&family=Share+Tech&display=swap" rel="stylesheet">
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  <script src="https://kit.fontawesome.com/cc6c784dc6.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300&family=Roboto&family=Share+Tech&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300&family=Share+Tech&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300&family=Roboto&family=Share+Tech&display=swap"
+        rel="stylesheet">
 
 </head>
-<body> 
-    
+
+<body>
+
 
 
     <nav class="navbar">
         <div class="logo">
-          
-         <img class="navbar-logo-RL navbar-item" src="./img/RL_blue.png" alt="">
- 
+
+            <img class="navbar-logo-RL navbar-item" src="./img/RL_blue.png" alt="">
+
         </div>
         <div class="navbar-list">
             <ul class="navbar-list">
-            <li class="navbar-item">About me</li>
-            
-            <li class="navbar-item">Projects</li>
-            <li class="navbar-item">Cursos</li>
-            <li class="navbar-item">Contact</li>
-            
+                <li class="navbar-item">About me</li>
+
+                <li class="navbar-item">Projects</li>
+                <li class="navbar-item">Cursos</li>
+                <li class="navbar-item">Contact</li>
+
             </ul>
         </div>
-        
+
     </nav>
-    <main >
+    <main>
         <section class="profile-container">
             <div class="profile">
                 <div class="profile-info">
                     <div class="profile-texts">
                         <h1 class="profile-info-position profile-text">Fontend Developer</h1>
                         <h2 class="profile-info-name profile-text">Ricardo Lopez</h2>
-                        <p class="profile-info-description">Desarrollador web con experiencia usando, HTML, CSS, JavaScript, Tailwind y React.</p>
-                        <p>Soy una persona que distruta de aprender cosas nuevas e interesantes todo el tiempo, me encanta entender como funcionan las cosas para poder optimizarlas.  </p>
-                        </div>
+                        <p class="profile-info-description">Desarrollador web con experiencia usando, HTML, CSS,
+                            JavaScript, Tailwind y React.</p>
+                        <p>Soy una persona que distruta de aprender cosas nuevas e interesantes todo el tiempo, me
+                            encanta entender como funcionan las cosas para poder optimizarlas. </p>
+                    </div>
                     <div class="profile-icons">
-                        <div class="profile-icon-container"><img class="profile-icons-js profile-icons-item" src="./img/javascript.svg" alt="JavaScript Icon"> JavaScript</div>
-                        <div class="profile-icon-container"><img class="profile-icons-react profile-icons-item"src="./img/react.png" alt="React Icon"> React</div>
-                         <div class="profile-icon-container"><img class="profile-icons-css profile-icons-item" src="./img/css3.png" alt="CSS Icon"> CSS</div>   
-                        <div class="profile-icon-container"><img class="profile-icons-html profile-icons-item" src="./img/html.png"  alt="html5 Icon"> HTML</div>
-                        <div class="profile-icon-container"><img class="profile-icons-tailwind profile-icons-item" src="./img/tailwind-css-icon.png" alt="Tailwind Icon">Tailwind
+                        <div class="profile-icon-container"><img class="profile-icons-js profile-icons-item"
+                                src="./img/javascript.svg" alt="JavaScript Icon"> JavaScript</div>
+                        <div class="profile-icon-container"><img class="profile-icons-react profile-icons-item"
+                                src="./img/react.png" alt="React Icon"> React</div>
+                        <div class="profile-icon-container"><img class="profile-icons-css profile-icons-item"
+                                src="./img/css3.png" alt="CSS Icon"> CSS</div>
+                        <div class="profile-icon-container"><img class="profile-icons-html profile-icons-item"
+                                src="./img/html.png" alt="html5 Icon"> HTML</div>
+                        <div class="profile-icon-container"><img class="profile-icons-tailwind profile-icons-item"
+                                src="./img/tailwind-css-icon.png" alt="Tailwind Icon">Tailwind
                         </div>
                     </div>
-                </div> 
-                    <div class="img-container">
-                        <img class="profile-pic" src="./img/profile-picture-removebg.png">
+                </div>
+                <div class="img-container">
+                    <img class="profile-pic" src="./img/profile-picture-removebg.png">
                 </div>
         </section>
-        
-        
+
+
         <section class="projects">
-            <h2 class="project-title">Projects</h2>
+            <h3 class="project-title">Projects</h3>
             <div class="projects-container">
-                <a href="https://ricardovillafranco.github.io/onePieceGame/" class="project"><iframe class="project-window" src="https://ricardovillafranco.github.io/onePieceGame/" frameborder="0"  title="One Piece Project">One Piece Game Project</iframe>One Piece Game Project</a>
-                <a href="https://thomasvillafranco.github.io/Proyecto-1/"class="project">            <iframe class="project-window" src="https://thomasvillafranco.github.io/Proyecto-1/" frameborder="0">project 2</iframe>The Division Project</a>
-            
-            </div>
-            
-            
-        </section>
-        <section class="cursos">
-            <h2 class="cursos-title">Cursos</h2>
-            <div class="cursos-container">
-            
-                <a href="https://platzi.com/p/ricardo.t.villafranco/curso/2484-react-practico/diploma/detalle/" class="curso"><img class="cursos-img" src="./img/platzi-react.PNG" ></img><p class="img-title">Curso de React.JS</p></a>
-                <a href="https://platzi.com/p/ricardo.t.villafranco/curso/1557-git-github/diploma/detalle/"class="curso"><img class="cursos-img" src="./img/platzi-github.PNG" ></img><p class="img-title">Curso de Git y Github</p></a>
-                <a href="https://platzi.com/p/ricardo.t.villafranco/curso/2327-javascript-practico-2021/diploma/detalle/"class="curso"><img class="cursos-img" src="./img/platzi-JS-practico.PNG" ></img><p class="img-title">Curso Practico de JavaScript</p></a>
-                <a href="https://platzi.com/p/ricardo.t.villafranco/curso/2327-javascript-practico-2021/diploma/detalle/"class="curso"><img class="cursos-img" src="./img/platzi-JS-practico.PNG" ></img><p class="img-title">Curso Practico de JavaScript</p></a>
+                <a href="https://ricardovillafranco.github.io/onePieceGame/" class="project"><iframe
+                        class="project-window" src="https://ricardovillafranco.github.io/onePieceGame/" frameborder="0"
+                        title="One Piece Project">One Piece Game Project</iframe>One Piece Game Project</a>
+                <a href="https://thomasvillafranco.github.io/Proyecto-1/" class="project"> <iframe
+                        class="project-window" src="https://thomasvillafranco.github.io/Proyecto-1/"
+                        frameborder="0">project 2</iframe>The Division Project</a>
 
             </div>
 
+
         </section>
-       
-        
+
+        <section class="courses">
+            <h3 class="cursos-title ">Cursos</h3>
+
+            <div class="courses-container">
+                <button aria-label="Back" class="carousel-back">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div class="courses-carousel">
+
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/2484-react-practico/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/platzi-react.PNG"></img>
+                            <p class="img-title">Curso de React.JS</p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/1557-git-github/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/platzi-github.PNG"></img>
+                            <p class="img-title">Curso de Git y Github</p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/2327-javascript-practico-2021/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/platzi-JS-practico.PNG"></img>
+                            <p class="img-title">Curso Practico de JavaScript</p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/2332-javascript-poo/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/POO.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/3175-asincronismo-js/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/asincronismo-JS.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/3504-ecmascript-6/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/ecmascript.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/2008-html-css/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/html-css.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/2467-frontend-developer/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/frontend-developer.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/2461-arrays/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/arrays.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/1822-tailwind-css-2020/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/tailwind-css.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/2477-frontend-developer-practico/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/frontend-developer-practico.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/1098-ingenieria/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/fundamentos-ingenieria.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/1474-oop/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/oop.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+                    <picture class="carousel-elemento"><a
+                            href="https://platzi.com/p/ricardo.t.villafranco/curso/3578-npm/diploma/detalle/"
+                            class="course"><img class="course-img" src="./img/npm-gestion.PNG"></img>
+                            <p class="img-title"></p>
+                        </a></picture>
+
+                </div>
+                <button aria-label="Next" class="carousel-next">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div role="tablist" class="carousel-indicators"></div>
+            </div>
+        </section>
+
+
     </main>
     <footer class="footer">
 
-    
-    <div class="contact-icons">
-        <div class="contact-icons-container">
-            <a class="contact-icon" href="https://www.linkedin.com/in/ricardo-thomas-l%C3%B3pez-mart%C3%ADnez/"class="footer-icon-youtube footer-icon">
-            <i class="icon-linkedin fa-brands fa-linkedin"></i> Ricardo Lopez </a>
-          </div>      
-          <div>
-            <a class="contact-icon" href="https://github.com/ThomasVillafranco"class="footer-icon-youtube footer-icon">
-            <i class="fa-brands fa-github"></i> ThomasVillafranco </a>
-          </div>
-          <div>
-            <a class="contact-icon" href="https://discord.com/"class="footer-icon-youtube footer-icon">
-            <i class="icon-discord fa-brands fa-discord"></i> TH_Greed#2471 </a>
-          </div>
-            
-    </div>
+
+        <div class="contact-icons">
+            <div class="contact-icons-container">
+                <a class="contact-icon" href="https://www.linkedin.com/in/ricardo-thomas-l%C3%B3pez-mart%C3%ADnez/"
+                    class="footer-icon-youtube footer-icon">
+                    <i class="icon-linkedin fa-brands fa-linkedin"></i> Ricardo Lopez </a>
+            </div>
+            <div>
+                <a class="contact-icon" href="https://github.com/ThomasVillafranco"
+                    class="footer-icon-youtube footer-icon">
+                    <i class="fa-brands fa-github"></i> ThomasVillafranco </a>
+            </div>
+            <div>
+                <a class="contact-icon" href="https://discord.com/" class="footer-icon-youtube footer-icon">
+                    <i class="icon-discord fa-brands fa-discord"></i> TH_Greed#2471 </a>
+            </div>
+
+        </div>
         <div>
             <div class="footer-autor"> Powered By Ricardo Thomas López Martínez </div>
-        </div>  
-        
-      </footer>
-    
-    
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://kit.fontawesome.com/cc6c784dc6.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
