@@ -27,17 +27,20 @@ main {
 .navbar {
     width: 100%;
     height: 35px;
-    color: white;
+    color: rgb(196, 218, 249);
     display: flex;
     flex-direction: row;
     align-items:flex-end;
     justify-content: space-between;
     align-items: center;
+ 
 
 }
 .navbar-logo-RL {
-    width: 50px;   
+    width: 50px; 
+    padding-left: 40px;  
 }
+
 .navbar-list {
     width: 50vw;
     list-style: none;
@@ -49,6 +52,8 @@ main {
     
 }
 .navbar-item:hover  {
+    transition: .5s;
+    transform:scale(1.2);
     color: #667eea;
 }
 
@@ -57,7 +62,7 @@ main {
     
 }
 .profile {
-    background-color: white;
+    background-color:;
     width: 100%;
     
     margin: 0 auto;
@@ -79,7 +84,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #000;
+    color: #cee1f5;
    
     align-items:flex-start
 
@@ -114,7 +119,6 @@ h1{
 
 .profile-icons {
 width: 100%;
-
 display: flex;
 flex-direction: row;
 justify-content: space-around;
@@ -125,21 +129,34 @@ padding-bottom: 20px;
 
 .profile-icons-item{
     
+    
     width: 50px;
+    height: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0px 20px 0 20px;
-    
-    
+    padding: 20px 20px 10px 20px;
+
 }
-.profile-icons-tailwind {
-    color: #84a9f3;
+.profile-icon-container {
+    width: 1fr;
+    height: 100px;
+    color:#d2d6ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
 }
-.profile-icons-html {
- width: 70px;
+.profile-icon-container>img:hover{
+    transition: .5s;
+    transform: scale(1.2);
 }
+
+
+
 
 .profile-icons-react {
     width: 60px;
@@ -227,9 +244,12 @@ padding-bottom: 20px;
     margin: 0 auto 50px auto;
     padding: 100px 0 100px 0;
     display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
     flex-direction: row;
     align-self: center;
     justify-content: space-around;
+    
     
    }
    .curso{
@@ -248,23 +268,38 @@ padding-bottom: 20px;
     width: 300px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
    
     
    }
 
-   .curso-img:hover  {
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   .cursos-img:hover  {
+    transition: .5s;
+    transform: scale(1.5);
+    
 }
    .img-title{
     align-items: center;
     justify-content: center;
     text-align: center;
    }
+
+.courses .courses-carousel {
+    white-space: nowrap;
+}
+.courses-carousel img{
+    
+    height: 340px;
+    object-fit: cover;
+    width: calc(100%/3);
+}
+
+
    footer {
-    width: 90%;
+    width:90%;
     height: 50px;
     color: azure;
     display: flex;
@@ -286,7 +321,11 @@ padding-bottom: 20px;
     justify-content: space-between;
 
    }
-   .icon-youtube {
-    color: red;
+   .icon-linkedin {
+    color: #0a66c2;
+    background-color: white;
+    
+    border-radius: 2px;
+    padding: 1px 2px 1px 2px;
     
    }
