@@ -270,12 +270,13 @@ h3 {
 
 .carousel-back,
 .carousel-next {
+    font-size: xx-large;
     position: absolute;
     display: block;
     width: 30px;
     height: 30px;
     border: none;
-    top: calc(50% - 35px);
+    top: calc(50% - 50px);
     cursor: pointer;
     line-height: 30px;
     text-align: center;
@@ -294,19 +295,20 @@ h3 {
 
 }
 
-.carousel-back-2:hover,
-.carousel-next-2:hover {
+.carousel-back:hover,
+.carousel-next:hover {
     opacity: 100%;
 }
 
 .carousel-back-2,
 .carousel-next-2 {
+    font-size: xx-large;
     position: absolute;
     display: block;
     width: 30px;
     height: 30px;
     border: none;
-    top: calc(50% - 35px);
+    top: calc(50% - 50px);
     cursor: pointer;
     line-height: 30px;
     text-align: center;
@@ -394,6 +396,9 @@ footer {
     align-items: center;
     justify-content: center;
 }
+.contact-icon:hover{
+    scale: 1.2;
+}
 
 .contact-icons {
     width: 60%;
@@ -414,7 +419,7 @@ footer {
 
 }
 .img-icon {
-    width: 30px;
+    width: 28px;
     border-radius: 5px;
     margin-right: 10px;
 }
