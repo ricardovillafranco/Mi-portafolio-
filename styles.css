@@ -351,6 +351,9 @@ h3 {
     opacity: 1;
 
 }
+.carousel-indicators-2{
+    padding-top: 30px;
+}
 
 .carousel-indicators-2 .glider-dot {
     display: block;
