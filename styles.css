@@ -247,7 +247,14 @@ h3 {
     text-align: center;
     color: white;
 }
+.img-title:hover{
+    color: #84a9f3;
+    scale: 1.2;
 
+}
+.courses {
+    padding-bottom:100px ;
+}
 .courses-container {
     position: relative;
 }
@@ -287,10 +294,42 @@ h3 {
 
 }
 
-.carousel-back:hover,
-.carousel-next:hover {
+.carousel-back-2:hover,
+.carousel-next-2:hover {
     opacity: 100%;
 }
+
+.carousel-back-2,
+.carousel-next-2 {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: white;
+    opacity: 20%;
+}
+
+.carousel-back-2 {
+    left: -30px;
+
+}
+
+.carousel-next-2 {
+    right: -30px;
+
+}
+
+.carousel-back-2:hover,
+.carousel-next-2:hover {
+    opacity: 100%;
+}
+
 
 .carousel-indicators .glider-dot {
     display: block;
@@ -307,6 +346,25 @@ h3 {
 }
 
 .carousel-indicators .glider-dot.avtive {
+    opacity: 1;
+
+}
+
+.carousel-indicators-2 .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+
+}
+
+.carousel-indicators-2 .glider-dot:hover {
+    opacity: .5;
+
+}
+
+.carousel-indicators-2 .glider-dot.avtive {
     opacity: 1;
 
 }
