@@ -54,6 +54,9 @@ main {
 
 
 }
+.navbar-item {
+    color: #667eea  ;
+}
 
 .navbar-item:hover {
     transition: .5s;
