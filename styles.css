@@ -50,12 +50,12 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
 
 }
 .navbar-item {
-    color: #667eea  ;
+    color: #8295ed  ;
 }
 
 .navbar-item:hover {
