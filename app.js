@@ -69,7 +69,7 @@ window.addEventListener('load', function(){
 function showResume(){
  
   var x = 
-  document.getElementById("resume");
+  document.getElementById("resume-file");
   
   if(x.style.display === "none"){
     x.style.display = "block";

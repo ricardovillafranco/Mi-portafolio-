@@ -13,6 +13,7 @@ html {
 }
 
 body {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +42,7 @@ main {
 
 .navbar-logo-RL {
     width: 50px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 .navbar-list {
@@ -64,7 +65,12 @@ main {
     color: white;
     cursor: pointer;
 }
-
+.logo-item:hover{
+    transition: .5s;
+    transform: scale(1.2);
+    color: white;
+    cursor: pointer;
+}
 .profile-container {
     width: 100%;
     
@@ -73,19 +79,17 @@ main {
 .profile {
 
     width: 100%;
-
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    border-radius: 4%
+   
 }
 
 
 .profile-texts {
     width: 80%;
     height: 50vh;
-    
     padding-bottom: 100px;
     padding-top: 100px;
     display: flex;
@@ -161,8 +165,6 @@ h1 {
 
 
 .profile-icon-container {
-    width: 1fr;
-    height: 100px;
     color: #d2d6ec;
     display: flex;
     flex-direction: column;
@@ -176,14 +178,21 @@ h1 {
     transform: scale(1.2);
 }
 
+h3 {
+    color: #a9c1f1;
+    padding: 50px ;
+    font-size: 2.5rem;
+
+}
+
+
 .projects {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 0px auto;
     padding: 100px 0 0 0;
     display: flex;
     flex-direction: column;
-
     align-items: start;
 }
 
@@ -198,7 +207,6 @@ h3 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto 50px auto;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -207,9 +215,6 @@ h3 {
 
 .project-container {
     background-color: white;
-    border-radius: 20px;
-    width: 80%;
-    height: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -217,10 +222,8 @@ h3 {
 }
 
 .project {
-
     color: white;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,12 +237,19 @@ h3 {
     width: 500px;
     padding-bottom: 20px;
 }
+.project-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 
-.course-img:hover {
-    transition: .5s;
-    transform: scale(1.5);
+}
+.project-icon-container {
+    padding:  20px 0;
+}
 
+.project-title:hover{
+    scale: 1.2;
 }
 
 
@@ -255,7 +265,7 @@ h3 {
 
 }
 .courses {
-    padding:200px 0 ;
+    padding:100px 0 ;
 }
 .courses-container {
     position: relative;
@@ -410,13 +420,12 @@ a {
     height: 1200px;
 }
 footer {
-
-    width: 90%;
     height: 50px;
+    width: 100%;
     color: azure;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 100px;
 
@@ -461,3 +470,122 @@ footer {
     font-size: xx-large;
     margin-right: 10px;
 }
+
+
+
+ @media screen and (max-width: 720px) {
+
+    html,
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-logo-RL{
+        padding: 0;
+    }
+
+    .navbar-item {
+        visibility: hidden;
+
+    }
+ 
+
+
+    .profile {
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+        font-size: small
+    }
+    .profile-texts{
+        margin: 0;
+        padding: 0;
+    }
+    .profile-container{
+        width: 100vw;
+        max-width: 300px;
+    }
+    h1{
+        font-size: 1.2rem
+    }
+    .profile-icons{
+        width: 100vw;
+        max-width: 250px;
+        padding: 0;
+        justify-content: space-around;
+    }
+    .profile-icon-container{
+        width: fit-content;
+        padding-top: 20px;
+    }
+    .profile-icons-item{
+        width: 20px;
+        height: 20px;
+    }
+    .img-container{
+        width: 300px;
+        height: 300px;
+    }
+  .profile-pic{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .projects-container {
+        flex-direction: column;
+    }
+    .project-window {
+        height: 200px;
+        width: 300px;
+        padding-bottom: 20px;
+    }
+
+    .resume-section {
+        visibility: hidden;
+         width: 100%;
+         
+    display: flex;
+    flex-direction: column;
+    justify-items: center; */
+     }
+
+    .footer {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+        padding-bottom:20px ;
+
+    }
+
+    .contact-icons {
+        width: 100%;
+        padding: auto;
+        justify-content: space-around;
+       
+        
+    }
+    .img-icon{
+        width: 20px;
+    }
+
+    .footer-autor {
+     
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+    }
+
+} 
