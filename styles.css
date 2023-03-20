@@ -394,31 +394,41 @@ a {
 
 .resume-conatiner {
     width: 1200px;
-    height: 300px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-self: center;
 }
 
-.showResumeButton{
-    margin-top: 50px;
-    width: 300px;
-    height: 50px;
-    background-color: #667eea;
-    font-size: 1.8rem;
+
+.btn-download{
+    padding-top: 20px;
+    background-color: #212327;
+    color: #667eea;
+    width: fit-content;
+    font-size: 1.2rem;
     border-radius: 15px;
+}
+.download-btn-text{
+    font-size: 1rem;
+    padding-left: 4px;
+    
+    
+}
 
+.fa-solid .fa-circle-down{
+    font-size: xx-large ;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
 }
-.showResumeButton:hover {
-    scale: 1.2;
-    transition: .5s;
+.resume-img{
+    width: 400px;
+    border-radius: 15px;
 }
 
-.pdfview {
-    width: 1200px;
-    height: 1200px;
-}
 footer {
     height: 50px;
     width: 100%;
@@ -587,22 +597,7 @@ footer {
         justify-self: center;
     }
     
-    .showResumeButton{
-        margin-top: 50px;
-        width: 100px;
-        height: 30px;
-        background-color: #667eea;
-        font-size: 1rem;
-        border-radius: 15px;
-    
-    }
-  
-    
-    .pdfview {
-        width: 100%;
-        height: 400px;
-    }
-    
+ 
 
     .footer {
         padding: 0;

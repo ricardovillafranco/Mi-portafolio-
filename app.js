@@ -66,14 +66,3 @@ window.addEventListener('load', function(){
     });
 });
 
-function showResume(){
- 
-  var x = 
-  document.getElementById("resume-file");
-  
-  if(x.style.display === "none"){
-    x.style.display = "block";
-  } else {
-    x.style.display = "none"
-  }
-}
