@@ -1,3 +1,10 @@
+var hamburguer = document.getElementById("hamburguer")
+var menu = document.getElementById("menu")
+
+hamburguer.addEventListener("click", function(){
+  menu.classList.toggle("open")
+})
+
 window.addEventListener('load', function(){
     new Glider(document.querySelector('.courses-carousel'), {
         slidesToShow: 1,  

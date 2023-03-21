@@ -25,7 +25,10 @@ main {
     max-width: 1200px;
 
 }
-
+.menu-list{
+    visibility: hidden;
+    
+}
 
 .navbar {
     width: 100%;
@@ -42,11 +45,11 @@ main {
 
 .navbar-logo-RL {
     width: 50px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .navbar-list {
-    width: 50vw;
+    width: 60vw;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -71,6 +74,23 @@ main {
     color: white;
     cursor: pointer;
 }
+#hamburguer{
+ display: none;
+}
+.menu {
+    display: none;
+  
+}
+ul{
+    list-style: none;
+}
+
+
+
+.open{
+    display: block;
+    
+}
 .profile-container {
     width: 100%;
     
@@ -90,8 +110,8 @@ main {
 .profile-texts {
     width: 80%;
     height: 50vh;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    
+    padding:100px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -498,7 +518,7 @@ footer {
 
 
 
- @media screen and (max-width: 720px) {
+ @media screen and (max-width: 768px) {
 
     html,
     body {
@@ -518,11 +538,50 @@ footer {
     }
 
     .navbar-item {
-        visibility: hidden;
+        display: none;
 
     }
- 
+   
+    
+  
+    #hamburguer{
+        
+        display: block;
+        position: relative;
+        top: 0;
+        left: 500;
+        padding-top: 10px;
+        padding-right: 10px;
+       
+        
 
+        
+        
+        
+       }
+       .menu {
+        height: 150px;
+        
+        background-image: linear-gradient(135deg, #667eea 0%, hsl(253, 44%, 51%) 100%);
+        border-radius: 15px 0 0 15px;
+        position: absolute;
+      
+        margin-top: 210px;
+        right: 0;
+        padding: 10px;
+        text-align: end;
+
+    
+       }
+       .menu-item {
+        
+        padding: 10px;
+        margin: 10px;
+        line-height: 1.5em;
+        color: #fff;
+        
+    }
+  
 
     .profile {
         width: 100vw;
