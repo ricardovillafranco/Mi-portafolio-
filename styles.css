@@ -249,6 +249,7 @@ h3 {
 }
 
 .project-title:hover{
+    transition: .5s;
     scale: 1.2;
 }
 
@@ -261,6 +262,7 @@ h3 {
 }
 .img-title:hover{
     color: #84a9f3;
+    transition: .5s;
     scale: 1.2;
 
 }
@@ -309,6 +311,7 @@ h3 {
 
 .carousel-back:hover,
 .carousel-next:hover {
+    transition: .5s;
     opacity: 100%;
 }
 
@@ -341,6 +344,7 @@ h3 {
 
 .carousel-back-2:hover,
 .carousel-next-2:hover {
+    transition: .5s;
     opacity: 100%;
 }
 
@@ -427,7 +431,17 @@ a {
 .resume-img{
     width: 400px;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
+.resume-img:hover{
+    transition: .5s;
+    scale: 1.2;
+}
+.btn-download:hover {
+    transition: .5s;
+    scale: 1.2;
+}
+
 
 footer {
     height: 50px;
@@ -450,6 +464,7 @@ footer {
     justify-content: center;
 }
 .contact-icon:hover{
+    transition: .5s;
     scale: 1.2;
 }
 
@@ -596,7 +611,7 @@ footer {
         align-items: center;
         justify-self: center;
     }
-    
+   
  
 
     .footer {
