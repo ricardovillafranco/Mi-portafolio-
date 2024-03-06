@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 
 }
 
@@ -8,6 +9,7 @@ html {
     background: #212327;
     font-family: "Roboto";
     font-size: 1.2rem;
+    
 
 
 }
@@ -18,6 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 main {
@@ -26,7 +29,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 
 }
 .menu-list{
@@ -36,7 +39,7 @@ main {
 
 .navbar {
     width: 100%;
-    height: 35px;
+    height: 70px;
     color: #667eea;
     display: flex;
     flex-direction: row;
@@ -113,7 +116,7 @@ ul{
 
 .profile-texts {
     width: 80%;
-    height: 50vh;
+    
     
     padding:100px 10px;
     display: flex;
@@ -124,10 +127,14 @@ ul{
     align-items: flex-start
 }
 
+.profile-info-description{
+margin-top: 40px;
+}
+
 
 h1 {
-    color: #84a9f3;
-    font-size: 3rem;
+    color: #7ba5fa;
+    font-size: 2.6rem;
 }
 
 .img-container {
@@ -232,7 +239,7 @@ h3 {
     max-width: 1200px;
     margin: 0 auto 50px auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -470,7 +477,7 @@ a {
 }
 .resume-img:hover{
     transition: .5s;
-    scale: 1.2;
+    scale: 1.1;
 }
 .btn-download:hover {
     transition: .5s;
@@ -551,15 +558,20 @@ footer {
 }
 
 
-
+/* Media query para dispositivos móviles con un ancho máximo de 767px */
  @media screen and (max-width: 768px) {
 
     html,
     body {
         width: 100%;
-        padding: 0;
+        
+        
         margin: 0;
         overflow-x: hidden;
+    }
+
+    main {
+      padding: 0 20px;  
     }
 
     .navbar {
@@ -618,22 +630,23 @@ footer {
   
 
     .profile {
-        width: 100vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: small
+        
     }
     .profile-texts{
-        height: 400px;
-        width: 98%;
+        
+        width: 100%;
         margin: 0;
-        padding:0 10px;
-        font-size: 1.2rem;
+        padding: 0;
+        
+        font-size: .8rem;
     }
     .profile-container{
-        width: 100vw;
+       
         
     }
     h1{
@@ -641,7 +654,7 @@ footer {
     }
 
     .profile-icons{
-        width: 100vw;
+        width: 100%;
 
         padding: 0;
         justify-content: space-around;
@@ -675,18 +688,26 @@ footer {
     height: 300px;
     
   }
-  h3{
-    font-size:larger;
+  h3.section-title {
+    width: 100%;
+    margin: 0;
+    padding: 30px 0 20px 0;
+    text-align: center;
   }
-
+    .projects{
+        width: 100%;
+        padding: 0;
+    }
     .projects-container {
         flex-direction: column;
     }
     .project-window {
-        width: 80%;
+        width: 100%;
         padding-bottom: 20px;
     }
-
+    .project-description{
+        height: 100%;
+    }
  
 
     .resume-section {
@@ -739,3 +760,13 @@ footer {
     }
 
 } 
+
+/* Media query para tabletas en orientación horizontal con un ancho mínimo de 1024px */
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+    /* Estilos para tabletas en orientación horizontal aquí */
+
+    main {
+        padding: 0 60px;  
+      }
+  }
+  
