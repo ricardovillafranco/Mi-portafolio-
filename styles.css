@@ -470,6 +470,48 @@ a {
 }
 
 
+
+.phone{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+.preview {
+    position: relative;
+    display: inline-block;
+}
+
+.preview-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95.4%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* La superposición está oculta inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave */
+    border-radius: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.preview:hover .preview-overlay {
+    opacity: 1; /* Mostrar la superposición cuando se pasa el ratón */
+}
+
+.preview-overlay a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
 .btn-download{
     padding-top: 20px;
    
