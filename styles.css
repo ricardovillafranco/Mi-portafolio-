@@ -52,7 +52,7 @@ main {
 }
 
 .navbar-logo-RL {
-    width: 90px;
+    width: 120px;
     padding-left: 20px;
 }
 
@@ -63,6 +63,7 @@ main {
     justify-content: space-around;
     align-items: center;
     font-size: 1.2rem;
+    
 
 
 }
@@ -98,7 +99,9 @@ ul{
 .open{
     display: block;
     
+    
 }
+
 .profile-container {
     width: 100%;
     
@@ -167,8 +170,9 @@ h1 {
 }
 
 
-.discord-icon{
-    border-radius: 10px;
+.whatsapp-icon{
+   border-radius: 7px;
+
 }
 
 .img-container {
@@ -218,6 +222,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 4px;
     
 
 }
@@ -798,9 +803,11 @@ footer {
         
        }
        .menu {
-        height: 150px;
+        height: 160px;
         
-        background-image: linear-gradient(135deg, #667eea 0%, hsl(253, 44%, 51%) 100%);
+     background-color: #00B4D8 ;
+     
+    
         border-radius: 15px 0 0 15px;
         position: absolute;
       
@@ -808,17 +815,21 @@ footer {
         right: 0;
         padding: 10px;
         text-align: end;
+        transition: all 600ms cubic-bezier(.62,.04,.3,1.56);
+   transition-delay: 100ms;
+
 
     
        }
        .menu-item {
         
-        padding: 10px;
+        
         margin: 10px;
         line-height: 1.5em;
         color: #fff;
         
     }
+
   
 
     .profile {
